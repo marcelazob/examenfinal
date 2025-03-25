@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sephora</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section class="panel panel-left panel-cover">
+		<a href="/profile/" class="item-link item-content panel-close">
+			<div id="perfil" class="block">
+				<img src="img/profile.jpg" alt="">
+				<h4>Marcela Lazo</h4>
+				<p>22 years old</p>
+			</div>
+		</a>
+			
+			<div class="list media-list">
+				<ul>
+					<li>
+					  <a href="/profile/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">account_circle</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Profile</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">home</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Home</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">brush</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Makeup</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">countertops</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Skincare</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">air_freshener</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Fragrance</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">shower</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Bath & Body</div>
+						</div>
+					  </a>
+					</li>
+					
+				</ul>
+			</div>
+			
+		
+		</section>
+		
+		
+	<div class="view view-main view-init">
+
+	<section data-name="home" class="page">
+
+	  <!-- Top Navbar -->
+	  <nav class="navbar">
+		<div class="navbar-bg"></div>
+		<div class="navbar-inner">
+			<div class="title">Sephora</div>
+			<div class="right">
+				<a href="#" class="link panel-open" data-panel="left">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</div>
+	  </nav>
+
+
+		<section class="page-content">
+
+			<div id="welcome" class="block">
+
+				<p>Hello, <b>Marcela!</b></p>
+
+				<div class="card">
+					
+					<div class="card-content card-content-padding">
+								<a href="#">
+									<h2 class="newclean">New & Clean at Sephora</h2>
+									<p>Indulge in buttery, silky, juicy makeup.</p>
+								</a>
+						</div>
+					</div>
+
+			</div>
+			
+			
+			<div class="row">
+				<article class="col">
+					<h2 class="block-title block-title-medium">Trending</h2>
+				</article>
+				<article class="col text-align-right">
+					<h2 class="block-title link"><a href="/products/" class="link">See all</a></h2>
+				</article>
+			</div>
+			
+			
+			<div id="home-products" class="block">
+				
+				<div class="swiper-container swiper-init" data-slides-per-view="2">
+				
+					<div class="swiper-wrapper">
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/dior lip.webp" alt="" class="img-fluid">
+									<h4 class="marca-producto">Dior</h4>
+									<p class="nombre-producto">Lip Glow Oil</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$40.00</p>
+									<a href="/info/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/tom ford cherry.webp" alt="" class="img-fluid">
+									<h4 class="marca-producto">Tom Ford</h4>
+									<p class="nombre-producto">Lost Cherry Parfum</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$405.00</p>
+									<a href="/info/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/estee lauder.webp" alt="" class="img-fluid">
+									<h4 class="marca-producto">Estee Lauder</h4>
+									<p class="nombre-producto">Night Repair Serum</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$128.00</p>
+									<a href="/info/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+
+						<article class="swiper-slide">
+							<div class="card producto">
+								<div class="card-content card-content-padding">
+									<img src="img/she left me.webp" alt="" class="img-fluid">
+									<h4 class="marca-producto">Patrick Ta</h4>
+									<p class="nombre-producto">Blush Duo</p>
+								</div>
+								<div class="card-footer">
+									<p class="precio-producto">$38.00</p>
+									<a href="/info/">
+										<span class="material-icons">
+										add
+										</span>
+									</a>
+								</div>
+							</div>
+						</article>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+
+
+		</section> <!--/page-content -->
+
+	</section> <!--/page -->
+		
+		<!-- toolbar -->
+		
+		<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+			<div class="toolbar-inner">
+				<a href="/home/" class="link">
+					<i class="material-icons">home</i>
+					<span class="tabbar-label">Home</span>
+				</a>
+				<a href="/products/" class="link">
+					<i class="material-icons">favorite</i>
+					<span class="tabbar-label">Favorite</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">shopping_basket</i>
+					<span class="tabbar-label">Cart</span>
+				</a>
+				<a href="/profile/" class="link">
+					<i class="material-icons">account_circle</i>
+					<span class="tabbar-label">Profile</span>
+				</a>
+			</div>
+		</nav>
+				
+		
+		<!-- /toolbar -->
+		
+	</div><!--/view -->
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
+
